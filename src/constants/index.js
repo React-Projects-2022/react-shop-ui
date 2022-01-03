@@ -1,0 +1,3 @@
+import { CURRENCIES_SYMBOL, CURRENCY_LIST } from "./currencies";
+const CONSTANTS = { CURRENCIES_SYMBOL, CURRENCY_LIST }
+export { CONSTANTS };

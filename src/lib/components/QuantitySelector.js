@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import PropTypes from "prop-types";
+import { Button } from "./Button";
 
 import "./../styles/quantity-selector.css";
 import { useCounter } from "../hooks/useCounter";
@@ -22,13 +23,13 @@ export const QuantitySelector = ({ stock, updateValue }) => {
   return (
     <>
       <div>
-        <button
-          type="button"
-          className="btn btn-minus qty-btn"
-          onClick={() => changeValue("-")}
-        >
-          -
-        </button>
+        <Button
+          params={"-"}
+          className={"btn btn-minus qty-btn"}
+          text={"-"}
+          handleAction={changeValue}
+        />
+
         <input
           type="text"
           value={counter}
@@ -36,13 +37,12 @@ export const QuantitySelector = ({ stock, updateValue }) => {
           className="text-center quantity"
           disabled
         />
-        <button
-          type="button"
-          className="btn btn-plus qty-btn"
-          onClick={() => changeValue("+")}
-        >
-          +
-        </button>
+        <Button
+          params={"+"}
+          className={"btn btn-plus qty-btn"}
+          text={"+"}
+          handleAction={changeValue}
+        />
       </div>
       {counter === stock ? (
         <p className="alert alert-danger">

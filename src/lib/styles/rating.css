@@ -1,0 +1,45 @@
+@import url("root.css");
+.ratingSection {
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+.checked {
+  color: var(--rating-checked);
+}
+.star,
+.star-20,
+.star-100 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.star-20 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.25, orange),
+    color-stop(1, black)
+  );
+  background-image: gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.25, orange),
+    color-stop(1, black)
+  );
+}
+.star-100 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(1, orange)
+  );
+  background-image: gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(1, orange)
+  );
+}

@@ -1,3 +1,4 @@
+import React from "react";
 import "./../styles/product-item.css";
 import { Rating } from "./Rating";
 import PropTypes from "prop-types";

@@ -1,3 +1,4 @@
+import React from "react";
 import { ProducItem } from "./ProductItem";
 import PropTypes from "prop-types";
 import { CONSTANTS } from "../constants";

@@ -1,6 +1,6 @@
 import { ProducItem } from "./ProductItem";
 import PropTypes from "prop-types";
-import { CONSTANTS } from "../../react-shop-ui";
+import { CONSTANTS } from "../constants";
 const ProductItemGroup = ({
   title,
   products,

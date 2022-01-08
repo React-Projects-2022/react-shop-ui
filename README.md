@@ -1,6 +1,6 @@
 # react-shop-ui
 Shop UI elements, similar ng-shop-ui Angular Library
 
-## User reference:
+## User reference
 
-* [How to publish React Component Library](https://levelup.gitconnected.com/publish-react-components-as-an-npm-package-7a671a2fb7f)
+Soon there will be instructions

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en ProductItem Debe de mostrar <ProductItem /> correctamente 1`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <p
+        className="description"
+      >
+        Nintendo 64
+      </p>
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

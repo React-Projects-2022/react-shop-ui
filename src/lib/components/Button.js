@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+import PropTypes, { object } from "prop-types";
 const Button = ({ text, className, handleAction, params }) => (
   <button
     type="button"
@@ -14,4 +14,5 @@ export { Button };
 
 Button.propTypes = {
   handleAction: PropTypes.func.isRequired,
+  text: PropTypes.oneOfType([PropTypes.string, object])
 };

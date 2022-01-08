@@ -1,5 +1,5 @@
 import React from "react";
-import { ProducItem } from "./ProductItem";
+import { ProductItem } from "./ProductItem";
 import PropTypes from "prop-types";
 import { CONSTANTS } from "../constants";
 const ProductItemGroup = ({
@@ -16,7 +16,7 @@ const ProductItemGroup = ({
     <div className="row row-cols-1 row-cols-md-4 g-4">
       {products.map((item) => (
         <div key={item.id} className="col">
-          <ProducItem
+          <ProductItem
             item={item}
             showDetails={showDetails}
             addCart={addCart}

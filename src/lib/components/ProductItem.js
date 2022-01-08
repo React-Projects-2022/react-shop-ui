@@ -4,7 +4,7 @@ import { Rating } from "./Rating";
 import PropTypes from "prop-types";
 import { Button } from "./Button";
 import { CONSTANTS } from "../constants";
-export const ProducItem = ({
+export const ProductItem = ({
   item,
   showDetails,
   addCart,
@@ -29,7 +29,7 @@ export const ProducItem = ({
           </div>
           <div className="bottom-div">
             <h5 className="truncate-one-line">{item.product.name}</h5>
-            {showDesc ? <p>{item.platform.name}</p> : <br />}
+            {showDesc ? <p className="description">{item.platform.name}</p> : <br />}
             <Rating
               max={5}
               ratingItem={{
@@ -61,7 +61,7 @@ export const ProducItem = ({
   );
 };
 
-ProducItem.propTypes = {
+ProductItem.propTypes = {
   item: PropTypes.object.isRequired,
   showDetails: PropTypes.func.isRequired,
   addCart: PropTypes.func.isRequired,

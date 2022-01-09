@@ -1,5 +1,716 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 1`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        €
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 2`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        $
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 3`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        £
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 4`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        $
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 5`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        $
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 6`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        $
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 7`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        $
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 8`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        Bs.
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 9`] = `
+<Fragment>
+  <div
+    className="card"
+  >
+    <div
+      className="heart"
+    >
+      <i
+        className="fa fa-heart"
+      />
+    </div>
+    <div
+      className="top-div"
+    >
+      <div
+        className="border"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </div>
+      <span>
+        S/.
+         
+        23
+      </span>
+    </div>
+    <div
+      className="bottom-div"
+    >
+      <h5
+        className="truncate-one-line"
+      >
+        Super Mario
+      </h5>
+      <br />
+      <Rating
+        max={5}
+        ratingItem={
+          Object {
+            "count": 340,
+            "value": 1,
+          }
+        }
+      />
+    </div>
+    <div
+      className="last-section text-center"
+    >
+      <div
+        className="buttons"
+      >
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-info-circle"
+            />
+          }
+        />
+         
+        <Button
+          handleAction={[MockFunction]}
+          params="1222"
+          text={
+            <i
+              className="fas fa-cart-plus"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
 exports[`Pruebas en ProductItem Debe de mostrar <ProductItem /> correctamente 1`] = `
 <Fragment>
   <div
@@ -24,6 +735,7 @@ exports[`Pruebas en ProductItem Debe de mostrar <ProductItem /> correctamente 1`
         />
       </div>
       <span>
+        €
          
         23
       </span>

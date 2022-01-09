@@ -37,19 +37,23 @@ describe("Pruebas en ProductItem", () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  /*test("Comprobar valores por defecto", () => {
-    const textButton = wrapper.find("button");
-    expect(textButton.text()).toBe("Details");
-    expect(textButton.prop("className")).toBe("btn btn-primary");
+  test("Comprobar que tenemos dos botones y Rating", () => {
+    expect(wrapper.find("Button").length).toBe(2);
+    expect(wrapper.find("Rating").length).toBe(1);
   });
 
-  test("Probar acción de click", () => {
-    const textButton = wrapper.find("button");
-    textButton.simulate("click");
-    expect(handleAction).toHaveBeenCalledTimes(1);
-    textButton.simulate("click");
-    textButton.simulate("click");
-    textButton.simulate("click");
-    expect(handleAction).toHaveBeenCalledTimes(4);
-  });*/
+  test("Comprobar las propiedades de los botones", () => {
+    const buttonComponent = wrapper.find("Button");
+    expect(buttonComponent.at(0).prop("params")).toBe(item.id);
+    expect(buttonComponent.at(1).prop("params")).toBe(item.id);
+    expect(buttonComponent.at(0).prop("text")).toMatchObject(
+      <i className="fas fa-info-circle"></i>
+    );
+    expect(buttonComponent.at(1).prop("text")).toMatchObject(
+      <i className="fas fa-cart-plus"></i>
+    );
+    // expect(buttonComponent.at(0).prop("handleAction")).toBeDefined(showDetails);
+    // expect(buttonComponent.at(1).prop("handleAction")).toBeDefined(addCart);
+  });
+
 });

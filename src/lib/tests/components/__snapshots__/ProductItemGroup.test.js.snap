@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en ProductItem Debe de mostrar <ProductItemGroup /> correctamente 1`] = `
+<Fragment>
+  <h2>
+    Juegos
+  </h2>
+  <hr />
+  <div
+    className="row row-cols-1 row-cols-md-4 g-4"
+  >
+    <div
+      className="col"
+      key="1222"
+    >
+      <ProductItem
+        addCart={[MockFunction]}
+        item={
+          Object {
+            "id": "1222",
+            "platform": Object {
+              "name": "Nintendo 64",
+            },
+            "price": 23,
+            "product": Object {
+              "img": "",
+              "name": "Super Mario",
+              "rating": Object {
+                "count": 340,
+                "value": 1,
+              },
+            },
+          }
+        }
+        selectMoney="EUR"
+        showDesc={true}
+        showDetails={[MockFunction]}
+      />
+    </div>
+    <div
+      className="col"
+      key="123"
+    >
+      <ProductItem
+        addCart={[MockFunction]}
+        item={
+          Object {
+            "id": "123",
+            "platform": Object {
+              "name": "Playstation",
+            },
+            "price": 56,
+            "product": Object {
+              "img": "",
+              "name": "Tomb Raider",
+              "rating": Object {
+                "count": 340,
+                "value": 1,
+              },
+            },
+          }
+        }
+        selectMoney="EUR"
+        showDesc={true}
+        showDetails={[MockFunction]}
+      />
+    </div>
+  </div>
+  <hr />
+</Fragment>
+`;

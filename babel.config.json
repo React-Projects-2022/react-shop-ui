@@ -13,6 +13,7 @@
         "corejs": "3.6.5"
       }
     ],
-    ["@babel/preset-react", {"runtime": "automatic"}]
-  ]
+    ["@babel/preset-react", { "runtime": "automatic" }]
+  ],
+  "ignore": ["node_modules", "tests"]
 }

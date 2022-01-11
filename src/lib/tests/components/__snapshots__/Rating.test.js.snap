@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Button Debe de mostrar <Rating /> correctamente 1`] = `
+<div
+  className="ratingSection"
+>
+  <span>
+    <i
+      className="fas fa-star checked"
+      key="0"
+    />
+    <i
+      className="fas fa-star checked"
+      key="1"
+    />
+    <i
+      className="fas fa-star checked"
+      key="2"
+    />
+    <i
+      className="fas fa-star checked"
+      key="3"
+    />
+    <i
+      className="fas fa-star "
+      key="4"
+    />
+  </span>
+   
+  4.1
+   (
+  50
+  )
+</div>
+`;

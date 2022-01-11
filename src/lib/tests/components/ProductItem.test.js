@@ -86,7 +86,6 @@ describe("Pruebas en ProductItem", () => {
 });
 
 const checkIfMoneySymbolIsCorrect = (selectMoney, expectedSymbol, item) => {
-  console.log(expectedSymbol, item, selectMoney);
   const product = shallow(
     <ProductItem
       item={item}

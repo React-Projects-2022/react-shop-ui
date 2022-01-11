@@ -47,5 +47,11 @@
     "@testing-library/react-hooks": "^7.0.2",
     "prop-types": "^15.8.0",
     "react-scripts": "^5.0.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,ts,tsx}",
+      "!src/**/index.js"
+    ]
   }
 }

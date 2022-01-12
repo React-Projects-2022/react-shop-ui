@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes, { object } from "prop-types";
 import "./../styles/carousel.css";
 const Carousel = ({ carousel }) => (
   <header>
@@ -60,3 +61,18 @@ const Carousel = ({ carousel }) => (
 );
 
 export { Carousel };
+
+Carousel.propTypes = {
+  carousel: PropTypes.array.isRequired
+};
+
+
+/**
+ * {
+          id: item.id,
+          title: item.product.name,
+          description: item.platform.name,
+          url: window.location.origin.concat(`/games/details/${item.id}`),
+          background: item.product.img,
+        }
+ */

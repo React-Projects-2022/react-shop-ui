@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Button Debe de mostrar <Carousel /> correctamente 1`] = `
+<header>
+  <div
+    className="carousel slide"
+    data-bs-interval="3000"
+    data-bs-ride="carousel"
+    id="carouselExampleCaptions"
+  >
+    <div
+      className="carousel-indicators"
+    >
+      <button
+        aria-current="true"
+        aria-label="Slide 1"
+        className="active"
+        data-bs-slide-to={0}
+        data-bs-target="#carouselExampleCaptions"
+        key="01"
+        type="button"
+      />
+      <button
+        aria-current="true"
+        aria-label="Slide 2"
+        className=""
+        data-bs-slide-to={1}
+        data-bs-target="#carouselExampleCaptions"
+        key="02"
+        type="button"
+      />
+      <button
+        aria-current="true"
+        aria-label="Slide 3"
+        className=""
+        data-bs-slide-to={2}
+        data-bs-target="#carouselExampleCaptions"
+        key="03"
+        type="button"
+      />
+    </div>
+    <div
+      className="carousel-inner"
+    >
+      <div
+        className="carousel-item active"
+        key="01"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://media.rawg.io/media/games/b11/b115b2bc6a5957a917bc7601f4abdda2.jpg\\")",
+          }
+        }
+      >
+        <div
+          className="carousel-caption"
+        >
+          <h5>
+            GTA IV
+          </h5>
+          <p>
+            Juego de Rockstar
+          </p>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+        key="02"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg\\")",
+          }
+        }
+      >
+        <div
+          className="carousel-caption"
+        >
+          <h5>
+            Shadow of Tomb Raider
+          </h5>
+          <p>
+            Lara Croft...
+          </p>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+        key="03"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg\\")",
+          }
+        }
+      >
+        <div
+          className="carousel-caption"
+        >
+          <h5>
+            Tomb Raider (2013)
+          </h5>
+          <p>
+            Lara Croft...
+          </p>
+        </div>
+      </div>
+    </div>
+    <button
+      className="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carouselExampleCaptions"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        className="carousel-control-prev-icon"
+      />
+      <span
+        className="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      className="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carouselExampleCaptions"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        className="carousel-control-next-icon"
+      />
+      <span
+        className="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</header>
+`;

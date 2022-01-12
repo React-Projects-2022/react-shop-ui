@@ -14,7 +14,7 @@ export const ProductItem = ({
   // https://bbbootstrap.com/snippets/product-card-template-hover-effect-and-animation-23224168
   return (
     <>
-      {item ? (
+      (
         <div className="card">
           <div className="heart">
             <i className="fa fa-heart"></i>
@@ -54,9 +54,7 @@ export const ProductItem = ({
             </div>
           </div>
         </div>
-      ) : (
-        ""
-      )}
+      )
     </>
   );
 };

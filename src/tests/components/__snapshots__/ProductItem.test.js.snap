@@ -2,6 +2,7 @@
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 1`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -76,11 +77,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 2`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -155,11 +158,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 3`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -234,11 +239,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 4`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -313,11 +320,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 5`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -392,11 +401,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 6`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -471,11 +482,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 7`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -550,11 +563,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 8`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -629,11 +644,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las monedas para mostrar 9`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -708,11 +725,13 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;
 
 exports[`Pruebas en ProductItem Debe de mostrar <ProductItem /> correctamente 1`] = `
 <Fragment>
+  (
   <div
     className="card"
   >
@@ -791,5 +810,6 @@ exports[`Pruebas en ProductItem Debe de mostrar <ProductItem /> correctamente 1`
       </div>
     </div>
   </div>
+  )
 </Fragment>
 `;

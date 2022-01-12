@@ -6,7 +6,6 @@ describe("Pruebas en Button", () => {
   let wrapper;
   const carouselItems = [
     {
-      id: "01",
       title: "GTA IV",
       description: "Juego de Rockstar",
       url: "http://www.rockstargames.com/V/",

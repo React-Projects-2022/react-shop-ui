@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642008988649" clover="3.2.0">
-  <project timestamp="1642008988649" name="All files">
-    <metrics statements="42" coveredstatements="42" conditionals="25" coveredconditionals="19" methods="18" coveredmethods="18" elements="85" coveredelements="79" complexity="0" loc="42" ncloc="42" packages="3" files="8" classes="8"/>
+<coverage generated="1642010022188" clover="3.2.0">
+  <project timestamp="1642010022188" name="All files">
+    <metrics statements="42" coveredstatements="42" conditionals="23" coveredconditionals="20" methods="18" coveredmethods="18" elements="83" coveredelements="80" complexity="0" loc="42" ncloc="42" packages="3" files="8" classes="8"/>
     <package name="components">
-      <metrics statements="34" coveredstatements="34" conditionals="24" coveredconditionals="19" methods="14" coveredmethods="14"/>
+      <metrics statements="34" coveredstatements="34" conditionals="22" coveredconditionals="20" methods="14" coveredmethods="14"/>
       <file name="Button.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/Button.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="4" type="stmt"/>
@@ -12,7 +12,7 @@
         <line num="15" count="4" type="stmt"/>
       </file>
       <file name="Carousel.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/Carousel.js">
-        <metrics statements="5" coveredstatements="5" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <metrics statements="5" coveredstatements="5" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
@@ -20,10 +20,10 @@
         <line num="65" count="1" type="stmt"/>
       </file>
       <file name="ProductItem.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/ProductItem.js">
-        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="7" count="2" type="stmt"/>
         <line num="15" count="14" type="stmt"/>
-        <line num="64" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
       </file>
       <file name="ProductItemGroup.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/ProductItemGroup.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

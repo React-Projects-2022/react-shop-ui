@@ -1,9 +1,8 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow } from "enzyme";
-import { ProductItem } from "./../../components/ProductItem";
-import { CONSTANTS } from "../../constants";
-import { ProductItemGroup } from "../../components/ProductItemGroup";
+import { ProductItem } from "./../../lib/components/ProductItem";
+import { CONSTANTS } from "../../lib/constants";
 describe("Pruebas en ProductItem", () => {
   let wrapper;
   const text = `<i className="fas fa-info-circle"></i>`;
@@ -12,53 +11,40 @@ describe("Pruebas en ProductItem", () => {
   const addCart = jest.fn();
   const selectMoney = CONSTANTS.CURRENCY_LIST.EURO;
   const showDesc = true;
-  const products = [
-    {
-      id: "1222",
-      price: 23,
-      product: {
-        img: "",
-        name: "Super Mario",
-        rating: {
-          value: 1,
-          count: 340,
-        },
-      },
-      platform: {
-        name: "Nintendo 64",
+  const item = {
+    id: "1222",
+    price: 23,
+    product: {
+      img: "",
+      name: "Super Mario",
+      rating: {
+        value: 1,
+        count: 340,
       },
     },
-    {
-      id: "123",
-      price: 56,
-      product: {
-        img: "",
-        name: "Tomb Raider",
-        rating: {
-          value: 1,
-          count: 340,
-        },
-      },
-      platform: {
-        name: "Playstation",
-      },
+    platform: {
+      name: "Nintendo 64",
     },
-  ];
-
+  };
   beforeEach(() => {
-    wrapper = shallow(<ProductItemGroup title={"Juegos"} products={products} showDesc={showDesc} showDetails={showDetails}
-        addCart={addCart} selectMoney={selectMoney}/>);
+    wrapper = shallow(
+      <ProductItem
+        item={item}
+        addCart={addCart}
+        showDesc={showDesc}
+        showDetails={showDetails}
+        selectMoney={selectMoney}
+      />
+    );
   });
-  test("Debe de mostrar <ProductItemGroup /> correctamente", () => {
+  test("Debe de mostrar <ProductItem /> correctamente", () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  test("Comprobar que tenemos dos productos", () => {
-    expect(wrapper.find("ProductItem").length).toBe(2);
+  test("Comprobar que tenemos dos botones y Rating", () => {
+    expect(wrapper.find("Button").length).toBe(2);
+    expect(wrapper.find("Rating").length).toBe(1);
   });
-});
-/*
-
 
   test("Comprobar las propiedades de los botones", () => {
     const buttonComponent = wrapper.find("Button");
@@ -100,7 +86,6 @@ describe("Pruebas en ProductItem", () => {
 });
 
 const checkIfMoneySymbolIsCorrect = (selectMoney, expectedSymbol, item) => {
-  console.log(expectedSymbol, item, selectMoney);
   const product = shallow(
     <ProductItem
       item={item}
@@ -114,4 +99,4 @@ const checkIfMoneySymbolIsCorrect = (selectMoney, expectedSymbol, item) => {
   expect(priceContent).toBe(`${expectedSymbol} ${item.price}`);
 
   expect(product).toMatchSnapshot();
-};*/
+};

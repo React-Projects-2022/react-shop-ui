@@ -15,5 +15,5 @@
     ],
     ["@babel/preset-react", { "runtime": "automatic" }]
   ],
-  "ignore": ["node_modules", "tests"]
+  "ignore": ["node_modules", "src/lib/tests"]
 }

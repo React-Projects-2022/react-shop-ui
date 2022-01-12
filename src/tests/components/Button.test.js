@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow } from "enzyme";
-import { Button } from "./../../components/Button";
+import { Button } from "./../../lib/components/Button";
 describe("Pruebas en Button", () => {
   let wrapper;
   const handleAction = jest.fn();

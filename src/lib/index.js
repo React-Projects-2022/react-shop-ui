@@ -6,11 +6,11 @@ import { Rating } from "./components/Rating";
 import { Button } from "./components/Button";
 import { Carousel } from "./components/Carousel";
 export {
-    Button,
-    Carousel,
-    ProducItem,
-    ProductItemGroup,
-    Rating,
-    QuantitySelector,
-    CONSTANTS
-}
+  Button,
+  Carousel,
+  ProducItem,
+  ProductItemGroup,
+  Rating,
+  QuantitySelector,
+  CONSTANTS,
+};

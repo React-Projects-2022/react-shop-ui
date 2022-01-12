@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { mount } from "enzyme";
-import { Rating } from "./../../components/Rating";
+import { Rating } from "./../../lib/components/Rating";
 describe("Pruebas en Button", () => {
   let wrapper;
   const ratingItem = {

@@ -1,5 +1,5 @@
 import "@testing-library/jest-dom";
-import { useCounter } from "./../../hooks/useCounter";
+import { useCounter } from "../../lib/hooks/useCounter";
 import { act, renderHook } from "@testing-library/react-hooks"; // will attempt to auto-detect
 
 describe("Pruebas en useCounter", () => {

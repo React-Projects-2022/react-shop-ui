@@ -1,7 +1,7 @@
 import React from "react";
 import { mount } from "enzyme";
-import { QuantitySelector } from "./../../components/QuantitySelector";
-
+import { QuantitySelector } from "../../lib/components/QuantitySelector";
+// https://stackoverflow.com/questions/65404663/mocking-custom-hook-with-jest-and-enzyme-results-in-xxx-is-not-a-function-or-it
 describe("Pruebas en QuantitySelector", () => {
   const updateValue = jest.fn();
   
@@ -40,30 +40,30 @@ describe("Pruebas en QuantitySelector", () => {
     expect(inputElement.prop("disabled")).toBe(true);
   });
 
-  test("Comprobar cambios de valores incrementando / decrementando", () =>{
-    /*const ButtonsElements = wrapper.find("Button");
+  test("Comprobar cambios de valores incrementando", () =>{
+    const ButtonsElements = wrapper.find("Button");
     const DecrementButton = ButtonsElements.at(0);
     const IncrementButton = ButtonsElements.at(1);
-    const inputElement = wrapper.find("input").at(0);
-    expect(inputElement.prop("value")).toBe(1);
-    DecrementButton.simulate("click");
-    expect(inputElement.prop("value")).toBe(1);
-    IncrementButton.simulate("click");
-    IncrementButton.simulate("click");
-    console.log(wrapper.find("input").at(0).prop("value"))
-    expect(inputElement.prop("value")).toBe(3);*/
-    // const mockSetState = jest.spyOn(React, "useState");
-
-
+    makeClickAction(IncrementButton);
+    expect(wrapper.find("input").at(0).prop("value")).toBe(2);
+    [IncrementButton, IncrementButton, IncrementButton].map((button) => (
+      makeClickAction(button)
+    ));
+    expect(wrapper.find("input").at(0).prop("value")).toBe(5);
+    [IncrementButton, IncrementButton, IncrementButton].map((button) => (
+      makeClickAction(button)
+    ));
+    expect(wrapper.find("input").at(0).prop("value")).toBe(8);
   });
-  /*
-  test("Probar acción de click", () => {
-    const textButton = wrapper.find("button");
-    textButton.simulate("click");
-    expect(handleAction).toHaveBeenCalledTimes(1);
-    textButton.simulate("click");
-    textButton.simulate("click");
-    textButton.simulate("click");
-    expect(handleAction).toHaveBeenCalledTimes(4);
-  });*/
+  test("Comprobar cambios de valores decrementando", () => {
+    const ButtonsElements = wrapper.find("Button");
+    const DecrementButton = ButtonsElements.at(0);
+    const IncrementButton = ButtonsElements.at(1);
+    makeClickAction(IncrementButton);
+    expect(wrapper.find("input").at(0).prop("value")).toBe(2);
+    makeClickAction(DecrementButton);
+    expect(wrapper.find("input").at(0).prop("value")).toBe(1);
+  })
 });
+
+const makeClickAction = (buttonElement) => buttonElement.simulate("click");

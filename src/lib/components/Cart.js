@@ -1,7 +1,7 @@
-import { CONSTANTS } from "./../constants";
+import PropTypes from "prop-types";
+import { CONSTANTS } from "../constants";
 import { CartItem } from "./CartItem";
 import { useCart } from "../hooks/useCart";
-import PropTypes from "prop-types";
 import "./../styles/cart.css";
 export const Cart = ({ navigateTo }) => {
   const {
@@ -44,6 +44,7 @@ export const Cart = ({ navigateTo }) => {
                     selectMoney={selectMoney}
                     updateValue={updateValue}
                     clearItem={clearItem}
+                    navigateTo={navigateTo}
                   />
                 ))}
               </tbody>

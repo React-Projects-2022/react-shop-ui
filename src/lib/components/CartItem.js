@@ -62,4 +62,5 @@ CartItem.propTypes = {
   selectMoney: PropTypes.string.isRequired,
   updateValue: PropTypes.func.isRequired,
   clearItem: PropTypes.func.isRequired,
+  navigateTo: PropTypes.func.isRequired
 };

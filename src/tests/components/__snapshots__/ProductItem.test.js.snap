@@ -66,7 +66,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -145,7 +161,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -224,7 +256,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -303,7 +351,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -382,7 +446,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -461,7 +541,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -540,7 +636,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -619,7 +731,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -698,7 +826,23 @@ exports[`Pruebas en ProductItem Comprobar que seleccionamos correctamente las mo
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"
@@ -781,7 +925,23 @@ exports[`Pruebas en ProductItem Debe de mostrar <ProductItem /> correctamente 1`
          
         <Button
           handleAction={[MockFunction]}
-          params="1222"
+          params={
+            Object {
+              "id": "1222",
+              "platform": Object {
+                "name": "Nintendo 64",
+              },
+              "price": 23,
+              "product": Object {
+                "img": "",
+                "name": "Super Mario",
+                "rating": Object {
+                  "count": 340,
+                  "value": 1,
+                },
+              },
+            }
+          }
           text={
             <i
               className="fas fa-cart-plus"

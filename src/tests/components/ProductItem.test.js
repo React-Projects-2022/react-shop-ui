@@ -49,7 +49,7 @@ describe("Pruebas en ProductItem", () => {
   test("Comprobar las propiedades de los botones", () => {
     const buttonComponent = wrapper.find("Button");
     expect(buttonComponent.at(0).prop("params")).toBe(item.id);
-    expect(buttonComponent.at(1).prop("params")).toBe(item.id);
+    expect(buttonComponent.at(1).prop("params")).toBe(item);
     expect(buttonComponent.at(0).prop("text")).toMatchObject(
       <i className="fas fa-info-circle"></i>
     );

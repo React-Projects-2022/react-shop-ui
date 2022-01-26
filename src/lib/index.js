@@ -6,13 +6,15 @@ import { Rating } from "./components/Rating";
 import { Button } from "./components/Button";
 import { Carousel } from "./components/Carousel";
 import { Cart } from "./components/Cart";
+import { useCart } from "./hooks/useCart"
 export {
   Button,
   Cart,
   Carousel,
+  CONSTANTS,
   ProducItem,
   ProductItemGroup,
   Rating,
-  QuantitySelector,
-  CONSTANTS,
+  useCart,
+  QuantitySelector
 };

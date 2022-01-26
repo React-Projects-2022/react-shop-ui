@@ -2,9 +2,8 @@ import { CONSTANTS } from "./../constants";
 import { CartItem } from "./CartItem";
 import { useCart } from "../hooks/useCart";
 import PropTypes from "prop-types";
-
 import "./../styles/cart.css";
-export const Cart = ( { navigateTo }) => {
+export const Cart = ({ navigateTo }) => {
   const {
     cart: cartData,
     clearCart,
@@ -13,7 +12,6 @@ export const Cart = ( { navigateTo }) => {
     updateCart,
     total,
   } = useCart();
-
 
   const selectMoney = CONSTANTS.CURRENCY_LIST.EURO;
 
@@ -94,5 +92,5 @@ export const Cart = ( { navigateTo }) => {
 };
 
 Cart.propTypes = {
-  navigateTo: PropTypes.func.isRequired
+  navigateTo: PropTypes.func.isRequired,
 };

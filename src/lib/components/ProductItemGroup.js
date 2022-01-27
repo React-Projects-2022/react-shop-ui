@@ -1,6 +1,7 @@
+import React from "react";
 import { ProductItem } from "./ProductItem";
 import PropTypes from "prop-types";
-import { CONSTANTS } from "./../constants";
+import { CONSTANTS } from "../constants";
 const ProductItemGroup = ({
   title,
   products,

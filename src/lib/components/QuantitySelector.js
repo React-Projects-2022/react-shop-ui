@@ -5,8 +5,8 @@ import { Button } from "./Button";
 import "./../styles/quantity-selector.css";
 import { useCounter } from "../hooks/useCounter";
 
-export const QuantitySelector = ({ stock, updateValue }) => {
-  const { counter, increment, decrement } = useCounter(1);
+export const QuantitySelector = ({ stock, updateValue, count = 1 }) => {
+  const { counter, increment, decrement } = useCounter(count);
 
   const changeValue = (action) => {
     if (action === "-" && counter > 1) {

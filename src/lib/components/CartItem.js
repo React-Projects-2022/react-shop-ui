@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { CONSTANTS } from "./../constants";
 import { QuantitySelector } from "./QuantitySelector";
@@ -62,5 +62,4 @@ CartItem.propTypes = {
   selectMoney: PropTypes.string.isRequired,
   updateValue: PropTypes.func.isRequired,
   clearItem: PropTypes.func.isRequired,
-  navigateTo: PropTypes.func.isRequired
 };

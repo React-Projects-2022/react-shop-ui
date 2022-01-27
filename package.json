@@ -1,6 +1,6 @@
 {
   "name": "@mugan86/react-shop-ui",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Shop UI elements, similar ng-shop-ui Angular Library",
   "main": "dist/index.js",
   "module": "dist/index.js",

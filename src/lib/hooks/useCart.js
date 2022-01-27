@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { SHOPING_CART_MOCK } from "../constants/shopping-cart";
 
 export const useCart = () => {

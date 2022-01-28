@@ -41,6 +41,7 @@ export const useCart = () => {
         cartData.products[
           cartData.products.findIndex((el) => el.id === productId)
         ];
+      console.log(updateProduct)
       updateProduct.qty = counter;
       // Update
       localStorage.setItem("cart", JSON.stringify(cartData));
@@ -110,6 +111,6 @@ export const useCart = () => {
     updateCart,
     total,
     manageProduct,
-    getProductInfo
+    getProductInfo,
   };
 };

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1643362532036" clover="3.2.0">
-  <project timestamp="1643362532036" name="All files">
-    <metrics statements="128" coveredstatements="111" conditionals="55" coveredconditionals="42" methods="39" coveredmethods="29" elements="222" coveredelements="182" complexity="0" loc="128" ncloc="128" packages="4" files="13" classes="13"/>
+<coverage generated="1643391306507" clover="3.2.0">
+  <project timestamp="1643391306507" name="All files">
+    <metrics statements="128" coveredstatements="119" conditionals="55" coveredconditionals="46" methods="39" coveredmethods="31" elements="222" coveredelements="196" complexity="0" loc="128" ncloc="128" packages="4" files="13" classes="13"/>
     <package name="lib.components">
-      <metrics statements="50" coveredstatements="33" conditionals="29" coveredconditionals="22" methods="22" coveredmethods="14"/>
+      <metrics statements="50" coveredstatements="41" conditionals="29" coveredconditionals="26" methods="22" coveredmethods="16"/>
       <file name="Button.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/Button.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
         <line num="4" count="31" type="stmt"/>
         <line num="7" count="13" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
       </file>
       <file name="Carousel.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/Carousel.js">
         <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
@@ -19,19 +19,19 @@
         <line num="26" count="6" type="stmt"/>
       </file>
       <file name="Cart.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/Cart.js">
-        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
+        <metrics statements="8" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="42" count="12" type="stmt"/>
         <line num="68" count="0" type="stmt"/>
         <line num="89" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
       </file>
       <file name="CartItem.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/CartItem.js">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+        <metrics statements="9" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
@@ -39,7 +39,7 @@
         <line num="37" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
       </file>
       <file name="ProductItem.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/ProductItem.js">
         <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
@@ -56,7 +56,7 @@
       </file>
       <file name="QuantitySelector.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/QuantitySelector.js">
         <metrics statements="11" coveredstatements="11" conditionals="11" coveredconditionals="9" methods="3" coveredmethods="3"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="9" count="14" type="stmt"/>
         <line num="11" count="14" type="stmt"/>
         <line num="12" count="9" type="cond" truecount="4" falsecount="0"/>
@@ -66,7 +66,7 @@
         <line num="19" count="14" type="stmt"/>
         <line num="20" count="14" type="stmt"/>
         <line num="23" count="14" type="stmt"/>
-        <line num="58" count="1" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
       </file>
       <file name="Rating.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/components/Rating.js">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
@@ -83,32 +83,32 @@
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="currencies.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/constants/currencies.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
       </file>
       <file name="shopping-cart.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/constants/shopping-cart.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
       </file>
     </package>
     <package name="lib.hooks">
       <metrics statements="70" coveredstatements="70" conditionals="26" coveredconditionals="20" methods="17" coveredmethods="15"/>
       <file name="useCart.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/hooks/useCart.js">
         <metrics statements="64" coveredstatements="64" conditionals="25" coveredconditionals="20" methods="13" coveredmethods="11"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="39" type="stmt"/>
-        <line num="8" count="39" type="stmt"/>
-        <line num="11" count="39" type="cond" truecount="1" falsecount="1"/>
-        <line num="12" count="39" type="cond" truecount="2" falsecount="0"/>
-        <line num="14" count="39" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="43" type="stmt"/>
+        <line num="8" count="43" type="stmt"/>
+        <line num="11" count="43" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="43" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="43" type="stmt"/>
         <line num="15" count="25" type="cond" truecount="1" falsecount="1"/>
         <line num="16" count="25" type="stmt"/>
         <line num="17" count="25" type="stmt"/>
         <line num="18" count="221" type="stmt"/>
         <line num="20" count="25" type="stmt"/>
-        <line num="24" count="39" type="stmt"/>
-        <line num="25" count="39" type="stmt"/>
+        <line num="24" count="43" type="stmt"/>
+        <line num="25" count="43" type="stmt"/>
         <line num="26" count="13" type="stmt"/>
         <line num="27" count="90" type="stmt"/>
         <line num="29" count="13" type="stmt"/>
@@ -117,7 +117,7 @@
         <line num="32" count="1" type="stmt"/>
         <line num="34" count="12" type="stmt"/>
         <line num="35" count="12" type="stmt"/>
-        <line num="38" count="39" type="stmt"/>
+        <line num="38" count="43" type="stmt"/>
         <line num="39" count="12" type="cond" truecount="3" falsecount="1"/>
         <line num="41" count="12" type="stmt"/>
         <line num="42" count="78" type="stmt"/>
@@ -125,7 +125,7 @@
         <line num="45" count="12" type="stmt"/>
         <line num="47" count="12" type="stmt"/>
         <line num="48" count="12" type="stmt"/>
-        <line num="52" count="39" type="stmt"/>
+        <line num="52" count="43" type="stmt"/>
         <line num="54" count="4" type="stmt"/>
         <line num="55" count="4" type="stmt"/>
         <line num="56" count="4" type="stmt"/>
@@ -146,24 +146,24 @@
         <line num="80" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="81" count="1" type="stmt"/>
         <line num="84" count="4" type="stmt"/>
-        <line num="87" count="39" type="cond" truecount="0" falsecount="1"/>
+        <line num="87" count="43" type="cond" truecount="0" falsecount="1"/>
         <line num="88" count="1" type="stmt"/>
         <line num="89" count="1" type="stmt"/>
         <line num="90" count="1" type="stmt"/>
         <line num="91" count="1" type="stmt"/>
-        <line num="94" count="39" type="stmt"/>
+        <line num="94" count="43" type="stmt"/>
         <line num="95" count="1" type="stmt"/>
         <line num="96" count="1" type="stmt"/>
-        <line num="99" count="39" type="stmt"/>
+        <line num="99" count="43" type="stmt"/>
         <line num="100" count="6" type="stmt"/>
         <line num="101" count="6" type="cond" truecount="1" falsecount="1"/>
         <line num="102" count="6" type="stmt"/>
         <line num="103" count="6" type="stmt"/>
-        <line num="106" count="39" type="stmt"/>
+        <line num="106" count="43" type="stmt"/>
       </file>
       <file name="useCounter.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/lib/hooks/useCounter.js">
         <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="3" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="3" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="4" count="22" type="stmt"/>
         <line num="6" count="22" type="stmt"/>
         <line num="8" count="22" type="stmt"/>
@@ -175,10 +175,10 @@
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="cart-data.js" path="/Users/anartz/Documents/Reactjs/react-shop-ui-lib/src/tests/mocks/cart-data.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="126" count="1" type="stmt"/>
-        <line num="130" count="1" type="stmt"/>
-        <line num="153" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="126" count="2" type="stmt"/>
+        <line num="130" count="2" type="stmt"/>
+        <line num="153" count="2" type="stmt"/>
       </file>
     </package>
   </project>

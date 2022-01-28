@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Cart Debe de mostrar <Cart /> correctamente - Con información 1`] = `
+<Fragment>
+  <span>
+    No tienes elementos guardados en el carrito de compra. Añádelos desde los productos con la opción de Añadir a la cesta
+  </span>
+  <button
+    onClick={[Function]}
+  >
+    Load cart
+  </button>
+</Fragment>
+`;
+
+exports[`Pruebas en Cart Debe de mostrar <Cart /> correctamente - Sin información 1`] = `
+<Fragment>
+  <span>
+    No tienes elementos guardados en el carrito de compra. Añádelos desde los productos con la opción de Añadir a la cesta
+  </span>
+  <button
+    onClick={[Function]}
+  >
+    Load cart
+  </button>
+</Fragment>
+`;

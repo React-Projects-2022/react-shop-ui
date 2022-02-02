@@ -40,4 +40,8 @@ describe("Pruebas en Button", () => {
     const textButton = wrapper.find(".carousel-item");
     expect(textButton.length).toBe(carouselItems.length);
   });
+
+  /*test("Click en más detalles", () => {
+    wrapper.find(".active");
+  })*/
 });

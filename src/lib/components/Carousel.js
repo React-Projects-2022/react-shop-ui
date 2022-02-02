@@ -1,12 +1,13 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./../styles/carousel.css";
-const Carousel = ({ carousel }) => (
+const Carousel = ({ carousel, refreshInterval = 3, openInfoDetails = () => console.log("Disable") }) => (
   <header>
     <div
       id="carouselExampleCaptions"
       className="carousel slide"
       data-bs-ride="carousel"
-      data-bs-interval="3000"
+      data-bs-interval={refreshInterval * 1000}
     >
       <div className="carousel-indicators">
         {carousel.map((item, index) => (
@@ -29,6 +30,7 @@ const Carousel = ({ carousel }) => (
             style={{
               backgroundImage: `url("${item.background}")`,
             }}
+            onClick={() => openInfoDetails(item.url)}
           >
             <div className="carousel-caption">
               <h5>{item.title}</h5>
@@ -60,3 +62,8 @@ const Carousel = ({ carousel }) => (
 );
 
 export { Carousel };
+
+Carousel.propTypes = {
+  carousel: PropTypes.array.isRequired,
+  openInfoDetails: PropTypes.func,
+};

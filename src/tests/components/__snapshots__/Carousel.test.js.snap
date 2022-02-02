@@ -4,7 +4,7 @@ exports[`Pruebas en Button Debe de mostrar <Carousel /> correctamente 1`] = `
 <header>
   <div
     className="carousel slide"
-    data-bs-interval="3000"
+    data-bs-interval={3000}
     data-bs-ride="carousel"
     id="carouselExampleCaptions"
   >
@@ -45,6 +45,7 @@ exports[`Pruebas en Button Debe de mostrar <Carousel /> correctamente 1`] = `
       <div
         className="carousel-item active"
         key="0"
+        onClick={[Function]}
         style={
           Object {
             "backgroundImage": "url(\\"https://media.rawg.io/media/games/b11/b115b2bc6a5957a917bc7601f4abdda2.jpg\\")",
@@ -65,6 +66,7 @@ exports[`Pruebas en Button Debe de mostrar <Carousel /> correctamente 1`] = `
       <div
         className="carousel-item"
         key="02"
+        onClick={[Function]}
         style={
           Object {
             "backgroundImage": "url(\\"https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg\\")",
@@ -85,6 +87,7 @@ exports[`Pruebas en Button Debe de mostrar <Carousel /> correctamente 1`] = `
       <div
         className="carousel-item"
         key="03"
+        onClick={[Function]}
         style={
           Object {
             "backgroundImage": "url(\\"https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg\\")",

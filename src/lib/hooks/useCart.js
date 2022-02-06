@@ -41,7 +41,6 @@ export const useCart = () => {
         cartData.products[
           cartData.products.findIndex((el) => el.id === productId)
         ];
-      console.log(updateProduct)
       updateProduct.qty = counter;
       // Update
       localStorage.setItem("cart", JSON.stringify(cartData));
@@ -53,7 +52,6 @@ export const useCart = () => {
     // Obtener cantidad de productps en el carrito
     const newCartData = cartData;
     const productTotal = newCartData.products.length;
-    console.log(product)
     // Comprobamos si tenemos productos
     if (empty) {
       console.log('Añadiendo primer producto');
@@ -76,7 +74,7 @@ export const useCart = () => {
           // updateValue(product.qty, product.id)
         }
       }
-      console.log(actionUpdateOk, newCartData);
+      // console.log(actionUpdateOk, newCartData);
       if (!actionUpdateOk) {
         newCartData.products.push(product);
       }
